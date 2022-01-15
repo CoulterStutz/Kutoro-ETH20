@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokens",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "receiveApproval",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"GGMToken_6.0.sol": "ApproveAndCallFallBack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"GGMToken_6.0.sol": {
+			"keccak256": "0x7894ecac88a8b02ea720c9b043a978612493c039bbad5f12b274270ffdcdad15",
+			"urls": [
+				"bzz-raw://009cf2b60a7c00fb3c5e1471c9ed45da8e34affa331269f31d6210e54e2ebe83",
+				"dweb:/ipfs/QmTf821fcw2Av5K7DW8vWM2io2iYesmsXfJUfFHBXgEJQQ"
+			]
+		}
+	},
+	"version": 1
+}
